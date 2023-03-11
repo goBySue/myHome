@@ -17,19 +17,19 @@
   </head>
   <body>
     <header>
-      <div class="fixed-top">
+      <div class="fixed-top" id="header_height">
       <nav class="navbar">
         <div class="logo">
-          <a href="index.html"><img src="CSS/logo.PNG" alt="logo"></a>
+        <!--<a href="index.html"><img src="CSS/logo.PNG" alt="logo"></a> -->  
         </div>
         
         <ul class="navbar_menu">
           <li>
-            <a href="index.html">HOME</a>
+            <a href="#home">HOME</a>
           </li>
-          <li><a href="project.html">PROJECT</a>
+          <li><a href="#project">PROJECTS</a>
           </li>
-          <li><a href="about.html">ABOUT ME</a>
+          <li><a href="#about">ABOUT ME</a>
           </li>
         </ul>
         
@@ -40,7 +40,7 @@
         </div>
     </header>
 
-    <div id="home">
+    <div id="home" class="container">
     <section id="greet">
     <p class="point-text">Hello! I am Jisu Kim👋</p>
     <p>An aspiring software engineer</p>
@@ -49,10 +49,118 @@
   <section id="github-theme">
     <p>1 - 👀 I' m interested in cloud computing and computer network</p>
     <p>2 - 📝 I' m currently learning Java and DevOps</p>
-    <p>3 - ❤️‍🔥 I' m looking for a co-op/internship position</p>
+    <p>3 - ❤️‍🔥 I' m looking for a co-op/internship positions</p>
     <p>4 - 📱 You can reach me by <a href="mailto:jisu6.kim@gmail.com?subject=Hello&body=Hi there,">Email</a> or <a href="https://www.linkedin.com/in/jisuuk/">Linkedin</a></p>
   </section>
 </div>
+
+<div id="project" class="container">
+  <div class="row">
+    <div class="col-6">
+        <img src="CSS/phpCrud.png" alt="">
+    </div>
+    <div class="col-6" id="info">
+      <p class="project-name"> List of Clients</p>
+      <ul class="skills">
+        <li>HTML5</li>
+        <li>Bootstrap</li>
+        <li>PHP</li>
+        <li>MySQL</li>
+        <a href="https://github.com/goBySue/php_CRUD"><li>Github</li></a>
+      </ul>
+      <br>
+      
+      <h7><i class="fa-solid fa-square-check"></i> Applied Create, Read, Update, Delete operation</h7> <br>
+      <h7><i class="fa-solid fa-square-check"></i> Generate user input, edit and save to MySQL</h7> <br><br>
+  
+      <a href="https://drive.google.com/file/d/10WF-6umlbJgcyzbLv_EHx3tTnG1mZa9E/view?usp=share_link" > <button class="btn btn-primary">Watch</button></a> 👈🏻 Click the button to see a demo <br>
+    </div>
+  
+  </div>
+
+  <div class="row">
+    <div class="col-6" id="payinfo">
+      <p class="project-name">Payroll Application</p>
+      <ul class="skills">
+        <li>C#</li>
+        <li>Windows Forms</li>
+        <a href="https://github.com/goBySue/PayrollApp"><li>Github</li></a>
+      </ul>
+  
+      <br>
+        <h7><i class="fa-solid fa-square-check"></i> Net income calculaotor</h7> <br>
+        <h7><i class="fa-solid fa-square-check"></i> Generate user input and save into text file</h7> <br>
+        <h7><i class="fa-solid fa-square-check"></i> Applied Graphic User Interface features</h7> <br> <br>
+      
+        Click the button to see a demo 👉🏻 <a href="https://drive.google.com/file/d/1nheWKKWc3CVCAKfctLvqXy1kRyxSqXtx/view?usp=share_link" > <button class="btn btn-primary">Watch</button></a><br>
+    </div>
+  
+   
+    <div class="col-6" id="payimage">
+        <img src="CSS/payroll.png" alt="">
+    
+    </div>
+  </div>
+  
+
+<div id="about" class="container">
+  <section>
+    <!--<h1 class="point-text">Hello, I am Jisu Kim!</h1> -->
+    <div class="row" id="#about-box">
+    <div class="col-6" id="github-theme" id="about-body">
+    <p>
+      I am currently in my second year of studying Computing Studies and Information Systems at Douglas College.
+      I am trying my best in college while also making an effort to stay active outside of school.
+      I have attended a Women in Tech meetup, a hackathon, and a mentorship program hosted by KOTRA Vancouver so far.
+    </p>
+
+    <p>
+      I adapted a strong attention to details and communication skills with team members and clients from my previous work. 
+    </p>
+    <p>
+      Besides coding, I like spending my spare time making something 
+      with my hands and travelling to new cities or countries. I love making oven-baked desserts,
+      cooking, and decorating home interiors. These are how I refresh from time to time. 
+    </p>
+  </div>
+  <div class="col-6" id="profile">
+    <img src="CSS/jisu.jpeg" alt="" />
+  </div>
+  </div>
+
+  <div class="contact" id="github-theme">
+    <p>Get in touch! <br>
+    Drop me a line or two if you want to work together.</p>
+  <a href="https://www.linkedin.com/in/jisuuk/">
+  <i class="fab fa-linkedin"></i>
+</a>
+<a href="https://github.com/goBySue">
+  <i class="fab fa-github"></i>
+</a>
+<a href="mailto:jisu6.kim@gmail.com">
+  <i class="fas fa-envelope"></i>
+</a>
+ 
+</div>
+    </section>
+
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

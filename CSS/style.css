@@ -1,17 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;700;800;900&display=swap');
 
 :root {
   --primary-color: #007bff;
 }
 
 * {
-  font-family: "Roboto" sans-serif;
+  font-family: "Raleway" sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 /* Navbar */
+
 
 .navbar {
   display: flex;
@@ -20,6 +22,7 @@
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  height: 70px;
 }
 
 .navbar_menu {
@@ -103,6 +106,11 @@ section {
 .container {
   padding-top: 150px;
   padding-left: 100px;
+
+}
+
+#home, #project #about{
+  padding-bottom: 250px;
 }
 
 .row {
@@ -118,4 +126,53 @@ section {
 
 img {
   width: 90%;
+}
+
+#project{
+  padding-left: 40px;
+}
+
+#info{
+  padding-top:50px;
+
+}
+
+#payinfo{
+  padding-top:50px;
+  padding-left:50px;
+}
+
+#payimage{
+  padding-left:15px;
+}
+
+.project-name{
+ font-weight: bold;
+}
+h7>i {
+  color: var(--primary-color);
+}
+
+
+.skills li {
+  border-radius: 6px;
+  display: inline-block;
+  background: white;
+  color: var(--primary-color);
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.skills li:nth-child(odd) {
+  background-color: var(--primary-color);
+  color: white;
+  
+}
+
+
+/*About me*/ 
+#profile{
+  padding-top: 15px;
+
+ 
 }
