@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;700;800;900&display=swap');
+
 
 :root {
   --primary-color: #007bff;
 }
 
 * {
-  font-family: "Raleway" sans-serif;
+  font-family: monospace;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -94,7 +94,6 @@ section {
 }
 #github-theme {
   padding-top: 10px;
-  font-family: monospace;
 }
 
 #github-theme p {
